@@ -1,6 +1,7 @@
 # Datascience-Chatgroup
 นาย ศุภมงคล โคตะสิทธิ์ 61114440735
 >> ขอบเขตของโครงงาน <<
+
 พัฒนาเว็บ application ด้วย django + scikitlearn เพื่อให้สามารถสร้าง model ในการวิเคราะห์บทสนทนาว่ามาจากกลุ่มใด
 โดยนักศึกษาจะต้องเลือกบทสนทนามาอย่างน้อย 3 กลุ่มเพื่อทำการ train model ตามตัวอย่าง
 
@@ -19,6 +20,7 @@ https://wichit2s.gitlab.io/datascience/14Classification/index.html#multinomial-n
 * (2) train.py เมื่อ run แล้ว แสดงข้อมูลความแม่นยำได้มากกว่า 75%
 
 >> สิ่งที่ต้องส่ง <<
+
 - ส่ง Link ของโครงการ (source repository) ที่อยู่บน Github
 - ส่ง Link Video นำเสนอการทำงานของโปรแกรมเป็น youtube link โดยเนื้อหาประกอบด้วย
 ๑ ข้อมูลผู้พัฒนา ไม่เกิน 2 นาที
