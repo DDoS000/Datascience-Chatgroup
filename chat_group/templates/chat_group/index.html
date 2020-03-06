@@ -40,11 +40,11 @@
                     {% csrf_token %}
                     <div class="form-group">
                         <h2>บทสนทนาที่ต้องการทดสอบ</h2>
-                        <textarea class="form-control" rows="3" name="chat" required>{{ chat }}</textarea>
+                        <textarea class="form-control" rows="3" name="chat" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary mb-2">ทดสอบ</button>
                 </form>
-                <h6>{{ label }}</h6>
+                <img src="{% static 'images/predict.png' %}" alt="predict">
             </div>
             <div class="col-6">
                 <h2>ตัวอย่างบทสนทนา</h2>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="card border-info col-6" style="max-width: 18rem;">
-                        <div class="card-header"> </div>
+                        <div class="card-header">politics</div>
                         <div class="card-body">
                             <h5 class="card-title">ตัวอย่างบทสนทนา</h5>
                             <p class="card-text">Michael Bloomberg, who spent millions on a self-funded US
@@ -100,12 +100,15 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">ผลลัพธ์</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
+                    <p>บทสนทนา</p>
+                    <p>{{ chat }}</p>
+                    <p>อยู่ในหมวด</p>
                     {{ label }}
                 </div>
                 <div class="modal-footer">
